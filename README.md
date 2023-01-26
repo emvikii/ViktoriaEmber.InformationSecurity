@@ -26,7 +26,7 @@ x) Read and summarize. Hutchins et al 2011: Intelligence-Driven Computer Network
 
 - An intelligence-driven CND has the effect of strengthening the security posture. APT actors try infiltration after an incursion by nature, modifying their activities based on each attempt's success or failure. Any repeat by the attacker is a disadvantage that defenders must notice and exploit since in a kill chain model, only one mitigation breaks the chain and thwarts the adversary.
 
-<h4> 3. Indicators and the Indicator Life Cycle </h4>
+<h4> 3.1 Indicators and the Indicator Life Cycle </h4>
     
 - atomic
 - computed
