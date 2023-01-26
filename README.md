@@ -17,8 +17,6 @@ x) Read and summarize. Hutchins et al 2011: Intelligence-Driven Computer Network
 - Traditional incident response methodologies assume an intrusion that is successful, while traditional network defense products like intrusion detection systems and anti-virus concentrate on the vulnerability component of risk.
 
  - These strategies are no longer adequate for some players due to the growth of the objectives and expertise of computer network attacks. The term "Advanced Persistent Threat" (APT) refers to a new category of threats that are well-resourced and skilled adversaries who run multi-year infiltration campaigns against extremely sensitive commercial, proprietary, or national security information.
-<br>
-</br>
 
 <h4> 3 Intelligence-driven Computer Network Defense </h4>
 
@@ -27,12 +25,33 @@ x) Read and summarize. Hutchins et al 2011: Intelligence-Driven Computer Network
 - An intelligence-driven CND has the effect of strengthening the security posture. APT actors try infiltration after an incursion by nature, modifying their activities based on each attempt's success or failure. Any repeat by the attacker is a disadvantage that defenders must notice and exploit since in a kill chain model, only one mitigation breaks the chain and thwarts the adversary.
 
 <h4> 3.1 Indicators and the Indicator Life Cycle </h4>
+ 
+The indicator is the primary component of intelligence in this approach. Three categories of indicators exist:
     
 - atomic
 - computed
 - behavioural
 
-    
 
+<h4> 3.2 Intrusion Kill Chain </h4>
+A kill chain is a systematic way to confront an enemy and produce the desired results. This integrated, end-to-end process is called a "chain" because any one link could break.
+ 
+-	Reconnaissance
+-	Weaponization
+-	Delivery
+-	Exploitation
+-	Installation
+-	Command and Control (C2)
+-	Actions on Objectives
+
+<h4> 3.4 Intrusion Reconstruction </h4>
+
+- An analyst can use kill chain analysis as a guide to identifying what data is and might be accessible for the protective course of action. It's a model for conducting fresh analysis of the invasions.
+- Most intrusions that are discovered only offer a small number of characteristics regarding one particular stage of the intrusion. To enumerate the most possible possibilities for courses of action, analysts must still identify numerous additional characteristics for each step.
+- Furthermore, analysts can infer that earlier stages of the intrusion have already been successfully completed based on detection in a particular phase.
+
+    
+    
+    
 
 </html>
