@@ -50,8 +50,76 @@ A kill chain is a systematic way to confront an enemy and produce the desired re
 - Most intrusions that are discovered only offer a small number of characteristics regarding one particular stage of the intrusion. To enumerate the most possible possibilities for courses of action, analysts must still identify numerous additional characteristics for each step.
 - Furthermore, analysts can infer that earlier stages of the intrusion have already been successfully completed based on detection in a particular phase.
 
+<br>
+</br>
+ 
+<h2> A summary of Karvinen 2020: Command Line Basics Revisited </h2>
     
+<h4> Moving and looking around </h4>
     
-    
+ $ pwd - 
+'pwd' prints the working directory.
+
+
+$ ls - 
+List files in working directory. These are the files you can directly manipulate.
+
+$ cd terosdir/ - 
+Change directory to "terosdir", under working directory.
+
+$ cd .. - 
+Change directory up. Path printed by pwd becomes shorter. Note space between command "cd" and directory "..".
+
+$ less tero.txt - 
+View text file tero.txt. In 'less', space " " shows next page, "b" shows previous page, slash "/" searches, "q" exits
+
+$ ls /etc|less - 
+Any command output can be read one screenfull at a time by piping the output to less. On Finnish keyboard, pipe character is created by pressing AltGr (right of space) and “<>|” (between left shift and Z)
+
+<h4> File Manipulation </h4>
+Easiest text editors are pico and nano.
+
+$ nano FOO.TXT
+Use CTRL-X y Enter to save and exit. You can see all commands at the bottom of nano screen. There the hat character “^” means control, for example “^X” is the same as ctrl-X.
+
+Filenames don’t have to be ALL CAPS, capitalization is used just for readability. If FOO.TXT does not exist, it is created. Files can have any suffix, and text file names don’t often end with “.txt”.
+
+Make a new directory (ie. folder):
+
+$ mkdir NEWFOLDER
+Move or rename directory or file OLDNAME to target NEWNAME. If NEWNAME does not exist, OLDNAME is renamed to NEWNAME.
+
+$ mv OLDNAME NEWNAME
+If both parameters are files, NEWNAME is overwritten. Usually no warnings or questions are shown.
+
+If target is a directory, OLDNAME is moved there.
+
+$ mv SOMEFILE NEWDIR/
+Copy ORIGINAL to COPY. “-r” means recursive, ORIGINAL is copied with contents if it is a directory.
+
+$ cp -r ORIGINAL COPY
+Remove an empty directory
+
+$ rmdir EMPTYDIR
+Remove a file called JUNK.
+
+$ rm JUNK
+Remove FOLDEROFJUNK/ and its contents. Usually no warnings or questions are shown.
+
+$ rm -r FOLDEROFJUNK
+There is no trash with rm. Think before you type.
+
+<h4>SSH Remote Control </h4>
+Open a remote command shell in a very secure way. Here, username is tero and server is example.com.
+
+$ ssh tero@example.com
+A command line just like yours opens. 
+
+Exit back to your own machine with ‘exit’
+
+remotecomputer$ exit
+Securely copy FOLDER to a folder in remote machine. Scp is run on your own machine. If you are connected to remote computer with ssh, ‘exit’ first.
+
+$ scp -r FOLDER tero@example.com:public_html/
 
 </html>
