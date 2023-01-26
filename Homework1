@@ -6,6 +6,17 @@
     <body>
 Homework 1
     </body>
+<h2>
+x) Read and summarize. Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains, chapters Abstract, 3.2 Intrusion Kill Chain and 3.3 Courses of Action </h2>
 
-<h2> x) Read and summarize. Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains, chapters Abstract, 3.2 Intrusion Kill Chain and 3.3 Courses of Action </h2>
+<h3> Abstrqact <h/3>
+
+<p> 
+Traditional incident response methodologies assume an intrusion that is successful, while traditional network defense products like intrusion detection systems and anti-virus concentrate on the vulnerability component of risk. <br>
+These strategies are no longer adequate for some players due to the growth of the objectives and expertise of computer network attacks. The term "Advanced Persistent Threat" (APT) refers to a new category of threats that are well-resourced and skilled adversaries who run multi-year infiltration campaigns against extremely sensitive commercial, proprietary, or national security information.
+
+<p>
+
+
+
 </html>
